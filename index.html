@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jubilee Celebration</title>
+  <style>
+    /* Estética usando css */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, nav, main, footer {
+      padding: 1em;
+      margin: 1em auto;
+      max-width: 900px;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1em;
+      justify-content: center;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0056b3;
+      text-align: center;
+    }
+    nav a:focus {
+      outline: 2px dashed #000;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      align-content: center;
+    }
+    .highlight {
+      background-color: #fff3cd; 
+      padding: 1em;
+      border-left: 5px solid #ffa502;
+    }
+  </style>
+</head>
+<body>
+  <!-- Encabezado principal del sitio -->
+  <header style="text-align: center;">
+    <h1>Jubilee Celebration 2025</h1>
+    <p>Join us in celebrating faith, unity, and renewal.</p>
+  </header>
+
+  <!-- Navegación accesible. -->
+    <nav aria-label="Main navigation" >
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#signup">Sign Up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+     <main>
+    <section id="about">
+      <h2>What is the Jubilee?</h2>
+      <p>The Jubilee is a special year of forgiveness, spiritual renewal, and unity. It is celebrated every 25 years in the Catholic Church, inviting believers to rediscover their faith and live it more deeply.</p>
+      <img src="jubileo.jpg" alt="Jubilee logo" />
+    </section>
+
+    <!-- Sección de eventos -->
+    <section id="events">
+      <h2>Upcoming Jubilee Events</h2>
+      <article>
+        <h3>Pilgrimage to Rome</h3>
+        <p>A spiritual journey to the heart of Catholicism. Open to all faithful worldwide.</p>
+      </article>
+      <article>
+        <h3>Local Celebrations</h3>
+        <ul>
+          <li>Masses and confessions</li>
+          <li>Community service projects</li>
+          <li>Prayer vigils</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Fun fact -->
+    <aside class="highlight" aria-label="Did you know?">
+      <h3>Did you know?</h3>
+      <p>The tradition of the Jubilee started in the year 1300 by Pope Boniface VIII.</p>
+    </aside>
+
+    <!-- Formulario -->
+    <section id="signup">
+      <h2>Sign Up for Updates</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <button type="submit" aria-label="Submit the sign-up form">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Diego Cova. All rights reserved.</p>
+    <nav aria-label="Footer links">
+      <a href="jubileo.jpg">Privacy Policy</a> |
+      <a href="jubileo.jpg">Contact Us</a>
+    </nav>
+  </footer>
+</body>
+</html>
